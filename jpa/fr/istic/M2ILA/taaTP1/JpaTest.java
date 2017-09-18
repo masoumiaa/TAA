@@ -1,5 +1,4 @@
 package fr.istic.M2ILA.taaTP1;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,16 +21,6 @@ public class JpaTest {
         tx.begin();
         try {
             
-        /*Department dep = new Department();
-        dep.setName("Info");
-        
-        manager.persist(dep);
-        
-        Employee emp = new Employee();
-        emp.setName("toto");
-        emp.setDepartment(dep);
-        
-        manager.persist(emp);*/
         	Sport foot = new Sport();
             foot.setName("Football");
             
